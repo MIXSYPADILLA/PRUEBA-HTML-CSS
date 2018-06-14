@@ -52,11 +52,11 @@ body a:hover{
     padding: 1.5em 0;  
 }
 .header nav.navbar.navbar-default {
-    background: #202c4575 !important;
+    background: #2e4045; 
     margin: 0;
     z-index: 9999;
     border: none;
-    
+  text-shadow: -2px -2px 1px #000;
 }
 .header ul.nav.navbar-nav.navbar-left {
     margin-left: 12%; 
@@ -94,7 +94,7 @@ body a:hover{
     font-family: 'Merriweather', serif;
 }
 .header .nav.navbar-nav.navbar-left li a {
-    color: #fff !important;
+    color: #fff; 
     font-size: 1.2em;
     padding: 0;
     position: relative; 
@@ -107,7 +107,7 @@ body a:hover{
     font-weight: 300;
 }
 .header .nav.navbar-nav.navbar-left li  a:hover,.nav.navbar-nav.navbar-left li.open  a.dropdown-toggle,.nav.navbar-nav.navbar-left li  a.active {
-    color: #f2184f !important;
+    color: #f2184f;
     outline: none;
 } 
 .w3ls-hover:after {
@@ -139,7 +139,7 @@ body a:hover{
     width: 100%;
 } 
 .header .nav.navbar-nav.navbar-left li a.dropdown-toggle { 
-    color:#fff; 
+    color: #ffffff; 
     border: none;
 } 
 .header .nav.navbar-nav.navbar-left li.open a.dropdown-toggle ,.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
@@ -208,21 +208,22 @@ body a:hover{
    font-family: 'Merriweather', serif;
     font-weight: 700;
        width: 84%;
-    background-color: rgba(32, 44, 69, 0.75) !important;
-    border-left: 6px solid #F2184F !important;
-    border-right: 6px solid #F2184F !important;
+    background-color: rgba(32, 44, 69, 0.75);
+    border-left: 6px solid #F2184F;
+    border-right: 6px solid #F2184F;
     margin: 0 auto;
     text-transform: uppercase;
+    text-shadow: -2px -2px 1px #000;
 } 
 .banner-w3lstext p {
-    font-size: 1.2em;
-    color: #ffffff;
+    font-size: 1.5em;
+    color: black;
     text-align: center; 
     width: 60%;
     margin: 2em auto 0;
-    letter-spacing: 0.5px;
-    line-height: 1.5em;
-
+    letter-spacing: 1px;
+    line-height: 1em;
+    background: rgba(255, 255, 255, 0.5);
 } 
 .w3-button {
     margin: 2em auto 0;
@@ -426,12 +427,13 @@ text-align: center;
     font-weight: 600;
     text-transform: capitalize;
     letter-spacing: 2px;
+    text-shadow: -2px -2px 1px #000;
     }
 .sevices-grid {
     padding: 0px 45px;
 }
 .testimonials {
-    padding-bottom: 0em!important;
+    padding-bottom: 0em;
 }
 
 h3.tittle {
@@ -632,7 +634,7 @@ h3.tittle.white {
     position: absolute;
     cursor: pointer;
     z-index: 100;
-        top: 47% !important;
+        top: 47%;
 }
 .nbs-flexisel-nav-left {
     left: 13%;
@@ -648,7 +650,7 @@ h3.tittle.white {
 }
 
 .team{
-    background:url(../images/20.png)no-repeat 0px 0px;
+    background:url(../images/nueve.jpg)no-repeat 0px 0px;
     background-size:cover;
     background-attachment:fixed;
 }
@@ -1103,7 +1105,7 @@ ul.w3-links li a i.fa:hover {
 }
 .panel-group .panel {
     margin-bottom: 0;
-    border-radius: 0px!important;
+    border-radius: 0px;
 }
 h3.tittle.why {
     text-align: left;
@@ -1116,7 +1118,7 @@ h3.tittle.why {
 }
 .header {
     padding: 0.6em 3em;
-    background: #1d1d1d;
+   
 }
 .w3layouts_header_right input[type="search"] {
     width: 70%;
@@ -1199,7 +1201,7 @@ li.agileits-main i {
     -ms-transition: 0.5s all;
 }
 .clo1 {
-    margin-top:0px !important;
+    margin-top:0px;
 }
 .header-w3l h2 {
     font-size: 2.5em;
@@ -1341,12 +1343,12 @@ h3.agileinfo_sign  {
     color: #FFFFFF;
 }
 .modal-header .close{
-    float:right!important;
+    float:right;
 }
 .form-control:focus {
     border: 1px solid #ccc;
     outline: 0;
-    box-shadow:none!important;
+    box-shadow:none;
 }
 
 .login-main input[type="text"],.newsletter input[type="email"],.login-main input[type="email"] {
@@ -1539,10 +1541,10 @@ h3.agileinfo_sign  {
     -moz-transition:0.5s all;
 }
 .icon-box:hover i.fa {
-    color:#fff !important;
+    color:#fff;
 }
 .icon-box:hover a.agile-icon {
-    color:#fff !important;
+    color:#fff;
 }
 .codes .bs-glyphicons li {
     float: left;
@@ -1578,7 +1580,7 @@ h3.agileinfo_sign  {
 }
 h3.icon-subheading {
     font-size: 28px;
-    color:#ef543b !important;
+    color:#ef543b;
     margin: 30px 0 15px;
     font-weight: 600;
     letter-spacing: 2px;
@@ -1595,9 +1597,9 @@ h3.agileits-icons-title {
     color: #999;
 }
 .icon-box i {
-    margin-right: 10px !important;
-    font-size: 20px !important;
-    color: #282a2b !important;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #282a2b;
 }
 .bs-glyphicons li {
     float: left;
@@ -1848,7 +1850,7 @@ li.list-group-item1 {
     margin-top:50px;
 }
 .label {
-    font-weight: 300 !important;
+    font-weight: 300;
     border-radius:4px;
 }  
 .grid_5{
@@ -1908,14 +1910,14 @@ section#tables  p {
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
     font-size: 0.9em;
     color: #999;
-    border-top: none !important;
+    border-top: none;
 }
 .tab-content > .active {
     display: block;
     visibility: visible;
 }
 .label {
-    font-weight: 300 !important;
+    font-weight: 300;
 }
 .label {
     padding: 4px 6px;
